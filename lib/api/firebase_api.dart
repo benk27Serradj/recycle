@@ -10,7 +10,7 @@ class FirebaseApi {
 
 
 
-  Future<void> initNotificationns() async {
+  Future<void> initNotifications() async {
     await _firebaseMessaging.requestPermission();
     final CMToken = await _firebaseMessaging.getToken();
     print('FCM Token: $CMToken');

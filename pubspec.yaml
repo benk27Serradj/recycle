@@ -1,4 +1,4 @@
-name: recycleit
+name: Dawir
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -54,6 +54,15 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+    - assets/images/logo.png
+    - assets/images/get_started.jpg
+    - assets/images/home_page.png
+    - assets/images/profile.jpg
+    - assets/images/NFC.png
+    - assets/images/login.jpg
+    - assets/images/logout.png
+
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
